@@ -285,14 +285,10 @@ transition: all 0.3s ease;
 position: relative;
 }
 
-
-
-
-
-
-
-
-
+.nav-item:hover {
+color: #00ffff;
+text-shadow: 0 0 10px #00ffff;
+}
 
 .nav-item::after {
 content: '';
