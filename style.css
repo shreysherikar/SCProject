@@ -285,21 +285,10 @@ font-weight: 500;
 transition: all 0.3s ease;
 position: relative;
 }
-
-// Planet hover effects
-document.querySelectorAll('.planet').forEach(planet => {
-planet.addEventListener('mouseenter', function() {
-this.style.transform = 'scale(1.5)';
-this.style.transition = 'transform 0.3s ease';
-this.style.boxShadow = '0 0 20px rgba(255,255,255,0.8)';
-});
-
-planet.addEventListener('mouseleave', function() {
-this.style.transform = 'scale(1)';
-this.style.boxShadow = 'none';
-});
-});
-
+.nav-item:hover {
+color: #00ffff;
+text-shadow: 0 0 10px #00ffff;
+}
 .nav-item::after {
 content: '';
 position: absolute;
